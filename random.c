@@ -3,6 +3,5 @@
 
 int rand_string()
 {
-    return rand()%26+'a';
-
+    return rand()%26 + 'a';
 }
